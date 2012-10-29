@@ -8,7 +8,9 @@ import java.util.Scanner;
 /**
  * En testklient
  * @author Danne
+ *asdasd
  *
+ *asdasd
  */
 public class SocketClient{
 	Socket requestSocket;
