@@ -15,7 +15,6 @@ public class SocketClient{
 	ObjectOutputStream out;
  	ObjectInputStream in;
  	String message;
- 	SocketClient(){}
  	Scanner keyboard = new Scanner(System.in);
 	void run()
 	{
@@ -25,7 +24,7 @@ public class SocketClient{
 			out = new ObjectOutputStream(requestSocket.getOutputStream());
 			out.flush();
 			in = new ObjectInputStream(requestSocket.getInputStream());
-			out.writeObject(new User("Adolf","hitler"));
+			out.writeObject(new User("SlaktarPelle","Adolf"));
 			do{
 				try{
 					out.flush();
