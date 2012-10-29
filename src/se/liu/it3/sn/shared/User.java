@@ -1,16 +1,17 @@
 package se.liu.it3.sn.shared;
 
-
 import java.io.Serializable;
 
 
-@SuppressWarnings("serial")
+
 public class User implements Serializable {
 	
+
+	private static final long serialVersionUID = 226254645755911593L;
 	private String userName;
 	private String password;
 	
-	public User(String userName, String password){
+	User(String userName, String password){
 		this.userName = userName;
 		this.password = password;
 	}
