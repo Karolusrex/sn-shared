@@ -4,6 +4,12 @@ import java.net.*;
 import java.util.Scanner;
 
 
+
+/**
+ * En testklient
+ * @author Danne
+ *
+ */
 public class SocketClient{
 	Socket requestSocket;
 	ObjectOutputStream out;
