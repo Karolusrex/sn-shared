@@ -24,7 +24,7 @@ public class SocketClient{
 			out = new ObjectOutputStream(requestSocket.getOutputStream());
 			out.flush();
 			in = new ObjectInputStream(requestSocket.getInputStream());
-			out.writeObject(new User("SlaktarPelle","Adolf"));
+			out.writeObject(new Handshake(12346, new User("SlaktarPelle","Adolf")));
 			do{
 				try{
 					out.flush();

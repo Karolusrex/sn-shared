@@ -12,5 +12,18 @@ public class Handshake implements Serializable{
 	public Handshake(long imei, User user) {
 		this.imei = imei;
 		this.user = user;
-	}	
+	}
+	public long getImei() {
+		return imei;
+	}
+	public void setImei(long imei) {
+		this.imei = imei;
+	}
+	public User getUser() {
+		return user;
+	}
+	public void setUser(User user) {
+		this.user = user;
+	}
+	
 }
